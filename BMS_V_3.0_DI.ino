@@ -871,7 +871,7 @@ void LCDDisplay(){
     previousMillis=currentMillis;
   
   ScreenIndex++;
-  if(ScreenIndex>5) ScreenIndex=1;
+  if(ScreenIndex>6) ScreenIndex=1;
   UpdateDisplay(ScreenIndex);
   }
 }
